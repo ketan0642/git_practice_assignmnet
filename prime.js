@@ -2,7 +2,7 @@
 
 function checkprime(num){
   let factors=0;
-  for(let i=0; i<=num; i++){
+  for(let i=1; i<=num; i++){
     if(num%i==0){
       factors++
     }
@@ -18,3 +18,5 @@ function checkprime(num){
 checkprime(10);
 checkprime(13);
 checkprime(9);
+checkprime(15);
+checkprime(25);
